@@ -8,4 +8,4 @@ env['target_directory'] = 'public_html/sports-day'
 
 @task
 def deploy():
-    rsync_project(env['target_directory'], 'html', delete=True)
+    rsync_project(env['target_directory'], 'html/', delete=True)
