@@ -7,18 +7,99 @@
     padding: 20px 0px;   
 }
 
+body{
+	background:url(../images/background-01.png) repeat-x;
+	background-color:#b1d5f1;
+	margin:0 auto;
+	font-family: "Segoe UI","Trebuchet MS", sans-serif;
+}
 
+.clouds{
+	background:url(../images/clouds.png) repeat-x;
+	width:100%;
+	margin: 0 auto;
+	height:200px;	
+	z-index: -1000;
+	position:fixed;
+}
+.land{
+	width: 100%;
+	bottom:0px;
+	marigin:0 auto;
+	position:fixed;
+	z-index:-500;
+}
 
+.trees{
+	position:fixed;
+	background:url(../images/trees.png) repeat-x;
+	width:100%;
+	bottom:5%;
+	z-index:-501;
+	margin:0 auto;
+	height:200px;
+}
+.play{
+	position:fixed;
+	z-index:0;
+	left:15%;
+	bottom:0%;
+	width:70%;
+	-height:40%;
+	margin: 0 auto;
+}
 
+.pre-container {
+	height: 120px;
+}
+.post-container {
+	height: 220px;
+}
+.container {
+	background-color:white;
+	border-radius:15px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
 
+.navbar-inner {
+	box-shadow: none;
+	border: none;
+	background: none;
+}
 
+.navbar .logo {
+	margin: -120px auto;
+	width: 240px;
+	height: 140px;
+}
 
+.navbar .nav>li>a {
+	color: #F90;
+	font-size: 1.4em;
+	padding: 10px 4px 10px;
+}
 
+.spacer {
+	clear: both;
+	height: 40px;
+}
 
+footer {
+	text-align: center;
+	color: #888;
+}
 
-
-
-
-
-
-
+.landing {
+	color: #F90;
+	text-align: center;
+}
+.landing h1 {
+	font-size: 5em;
+	line-height: 1.2em;
+	font-weight: normal;
+}
+.landing .lead {
+	font-size: 3em;
+	line-height: 1.2em;
+}
