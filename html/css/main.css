@@ -66,6 +66,19 @@ h1, h2, h3, h4 {
 	min-height: 550px;
 }
 
+.container-logos {
+  float: right;
+  height: auto;
+}
+
+.container-logos img {
+  max-width: 160px;
+}
+
+.container-logos a {
+  display: block;
+}
+
 .navbar .nav {
 	margin-top: 8px;
 }
@@ -77,9 +90,11 @@ h1, h2, h3, h4 {
 }
 
 .navbar .logo {
-	margin: -120px auto;
-	width: 240px;
-	height: 140px;
+	background:url(../images/logo.png) no-repeat;
+	margin:-130px auto;
+	width: 285px;
+	height: 200px;
+	background-size: 80%;
 }
 
 .navbar .nav>li>a {
@@ -110,4 +125,8 @@ footer {
 .landing .lead {
 	font-size: 3em;
 	line-height: 1.2em;
+}
+
+.text-center {
+	text-align: left;
 }
